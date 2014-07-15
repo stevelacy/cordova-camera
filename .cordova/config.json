@@ -1,0 +1,9 @@
+{
+    "lib": {
+        "www": {
+            "id": "com.stevelacy.cameratest",
+            "version": "0.1.0",
+            "uri": "https://github.com/stevelacy/cordova-camera"
+        }
+    }
+}
