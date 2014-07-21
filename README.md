@@ -1,4 +1,4 @@
-
+## Simple cordova camera
 
 
 `cordova plugin add org.apache.cordova.camera`
