@@ -1,7 +1,7 @@
 
 var cameraSuccess = function(data){
   var image = document.getElementById('image');
-  image.src = "data:image/jpeg;base64," + data;
+  image.src = 'data:image/jpeg;base64,' + data;
   console.log(data);
 };
 var cameraError = function(err){
@@ -27,9 +27,9 @@ var app = {
   },
   onDeviceReady: function() {
     //camera();
-    var button = document.getElementById("takePhoto");
+    var button = document.getElementById('takePhoto');
 
-    button.addEventListener("click",function(e){
+    button.addEventListener('click', function(e){
       camera();
     }, false);
   }
